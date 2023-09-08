@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio de Música</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Sitio de Música</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Canciones</a></li>
+                <li><a href="#">Artistas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="destacados">
+        <h2>Canciones Destacadas</h2>
+        <div class="cancion">
+            <img src="cancion1.jpg" alt="Canción 1">
+            <h3>Nombre de la Canción 1</h3>
+            <p>Artista: Nombre del Artista 1</p>
+        </div>
+        <div class="cancion">
+            <img src="cancion2.jpg" alt="Canción 2">
+            <h3>Nombre de la Canción 2</h3>
+            <p>Artista: Nombre del Artista 2</p>
+        </div>
+        <!-- Agrega más canciones destacadas aquí -->
+    </section>
+
+    <section id="artistas">
+        <h2>Artistas Populares</h2>
+        <div class="artista">
+            <img src="artista1.jpg" alt="Artista 1">
+            <h3>Nombre del Artista 1</h3>
+            <p>Descripción del Artista 1</p>
+        </div>
+        <div class="artista">
+            <img src="artista2.jpg" alt="Artista 2">
+            <h3>Nombre del Artista 2</h3>
+            <p>Descripción del Artista 2</p>
+        </div>
+        <!-- Agrega más artistas populares aquí -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mi Sitio de Música</p>
+    </footer>
+</body>
+</html>
